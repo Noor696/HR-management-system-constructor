@@ -27,7 +27,7 @@ function Employee(fullnameVal, departmentVal, LeveVal , ImageVal, employeeIDVal,
 
     if(this.level === "Senior"){
         this.getRandomSalary(1500,2000);
-    } else if (this.level === "Mid-Seniorr") {
+    } else if (this.level === "Mid-Senior") {
         this.getRandomSalary(1000,1500);
       } else {
         this.getRandomSalary(500,1000);
